@@ -1,0 +1,4 @@
+<h2>{{columnName}}</h2>
+<ng-container  *ngFor="let card of kanbanService.cardList">
+  <app-card *ngIf="card.lista === columnName" [cardData]="card"></app-card>
+</ng-container>

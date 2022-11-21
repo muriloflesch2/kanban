@@ -1,0 +1,26 @@
+
+
+.example-card {
+  margin: 20px 0;
+}
+mat-card-actions{
+  display: flex;
+  justify-content: space-between;
+}
+.mat-mdc-card-header {
+  display: flex;
+  padding: 16px 16px 0;
+  justify-content: space-between;
+}
+.btEdit{
+  position: absolute;
+  right: 7px;
+  top: 7px;
+}
+.mat-mdc-card-title{
+  width: 80%;
+}
+
+.mat-mdc-card-subtitle{
+  width: 100%;
+}

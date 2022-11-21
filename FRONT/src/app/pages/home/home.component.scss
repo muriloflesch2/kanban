@@ -1,0 +1,30 @@
+:host{
+
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  mat-toolbar{
+    position: fixed;
+    z-index: 99 ;
+  }
+  .container{
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 95%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: stretch;
+    box-sizing:border-box;
+    .column{
+      width: 32%;
+    }
+
+  }
+  mat-flat-button {
+    width: 100% !important;
+  }
+}
+
+

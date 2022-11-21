@@ -1,0 +1,25 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-title>{{cardData.titulo}}</mat-card-title>
+    <button class="btEdit" mat-icon-button (click)="onClickEdit()">
+      <mat-icon>edit</mat-icon>
+    </button>
+    <mat-card-subtitle>
+      <app-markdown [text]="cardData.conteudo"></app-markdown>
+
+    </mat-card-subtitle>
+
+  </mat-card-header>
+  <mat-card-actions>
+    <button [disabled]="beforeDisabled" mat-icon-button (click)="onClickBefore()">
+      <mat-icon>navigate_before</mat-icon>
+    </button>
+    <button mat-icon-button (click)="onClickRemove()">
+      <mat-icon>delete</mat-icon>
+    </button>
+    <button mat-icon-button (click)="onClickNext()" [disabled]="nextDisabled">
+      <mat-icon>navigate_next</mat-icon>
+    </button>
+  </mat-card-actions>
+</mat-card>
+

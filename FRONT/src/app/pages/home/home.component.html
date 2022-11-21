@@ -1,0 +1,14 @@
+<mat-toolbar color="primary">
+  <span>Kanban</span>
+  <span class="example-spacer"></span>
+  <button mat-icon-button class="example-icon" (click)="onClickAdd()">
+    <mat-icon>add</mat-icon>
+  </button>
+</mat-toolbar>
+
+<div class="container">
+  <ng-container   *ngFor="let title of kanbanService.columnTitles">
+      <app-column class="column"  [columnName]="title"></app-column>
+  </ng-container>
+</div>
+
