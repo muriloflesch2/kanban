@@ -4,7 +4,7 @@
 
 2) MODELS --> O Projeto utiliza interfaces como MODELOS para facilitar e dar mais segurança na troca de dados com a API.
 
-3) MODULO PAGES --> Módulo exclusivo para páginas. Páginas concentram um conjunto de componentes que representam uma visualição com funcionalidades especifícas, muitas vezes com rotas específicas.
+3) MODULO PAGES --> Módulo exclusivo para páginas. Páginas normalmente concentram  um conjunto de componentes com funcionalidades e objetivos especifícos, muitas vezes vinculadas à rotas específicas.
 
 4) MODULO SHARED --> Como o projeto possui apenas uma página, ao invés de concentrar os componentes dentro de uma pasta chamada componentes, resolvi criar todos os componentes dentro da pasta/módulo SHARED, partindo do ponto de vista em que as outras hipotéticas páginas tambem seriam um gafico Kanbam com funcionalidades parecidas, aproveitando colunas, cards e todos os outros elementos.
 
